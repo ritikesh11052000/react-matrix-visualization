@@ -1,0 +1,33 @@
+/* Grid container */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr); /* 10 columns */
+  grid-template-rows: repeat(10, 1fr); /* 10 rows */
+  gap: 2px; /* Small gap between cells */
+  width: 400px; /* Fixed width for the grid */
+  height: 400px; /* Fixed height for the grid */
+  margin: 0 auto; /* Center the grid */
+}
+
+/* Individual grid cell */
+.grid-cell {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  transition: background-color 0.2s ease; /* Smooth color transition */
+}
+
+/* Default cell color (light gray) */
+.grid-cell.default {
+  background-color: #d3d3d3;
+}
+
+/* Active cell color (blue) */
+.grid-cell.active {
+  background-color: #007bff;
+}
+
+/* Hover effect for better interactivity */
+.grid-cell:hover {
+  opacity: 0.8;
+}

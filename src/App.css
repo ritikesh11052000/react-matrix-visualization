@@ -1,0 +1,26 @@
+/* App container */
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0; /* Light background for better contrast */
+}
+
+/* Header styling */
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Title styling */
+.App-header h1 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 2rem;
+}
